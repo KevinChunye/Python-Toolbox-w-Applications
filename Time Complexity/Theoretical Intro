@@ -1,0 +1,26 @@
+#Some general introduction links:
+https://programmercarl.com/%E5%89%8D%E5%BA%8F/%E5%85%B3%E4%BA%8E%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%EF%BC%8C%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E9%83%BD%E5%9C%A8%E8%BF%99%E9%87%8C%EF%BC%81.html#%E4%B8%8D%E5%90%8C%E6%95%B0%E6%8D%AE%E8%A7%84%E6%A8%A1%E7%9A%84%E5%B7%AE%E5%BC%82
+https://www.mygreatlearning.com/blog/why-is-time-complexity-essential/#:~:text=Time%20complexity%20is%20defined%20as,execution%20time%20of%20an%20algorithm.
+
+
+# to check out the time used to run an algorithm on Jupyternote book
+%%time 
+
+
+# Definiton of Time Complexity
+Time complexity is defined as the amount of time taken by an algorithm to run, as a function of the length of the input. 
+It measures the time taken to execute each statement of code in an algorithm. 
+It is not going to examine the total execution time of an algorithm.
+
+
+#There are different types of time complexities used, let’s see one by one:
+1. Constant time – O (1)
+2. Linear time – O (n)
+3. Logarithmic time – O (log n)
+4. Quadratic time – O (n^2)
+5. Cubic time – O (n^3)
+
+
+#Constant time – O (1)
+An algorithm is said to have constant time with order O (1) when it is not dependent on the input size n. 
+Irrespective of the input size n, the runtime will always be the same. Example as shown:
