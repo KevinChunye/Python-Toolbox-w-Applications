@@ -24,3 +24,14 @@ It is not going to examine the total execution time of an algorithm.
 #Constant time – O (1)
 An algorithm is said to have constant time with order O (1) when it is not dependent on the input size n. 
 Irrespective of the input size n, the runtime will always be the same. Example as shown:
+
+ex."""
+import time
+def first_number(array):
+    return array[0]
+
+start = time.time()
+smallest_number=min([22,3,322,1232,122])
+print("Execution time for 1st array:{}".format(time.time()-start))
+""" #Execution time for 1st array:0.0
+
