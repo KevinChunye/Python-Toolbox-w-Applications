@@ -35,3 +35,4 @@ smallest_number=min([22,3,322,1232,122])
 print("Execution time for 1st array:{}".format(time.time()-start))
 """ #Execution time for 1st array:0.0
 
+
